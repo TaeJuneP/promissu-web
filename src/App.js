@@ -1,25 +1,19 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './logo.png';
 import './App.css';
-
+import iosButtonImg from "./button_download_ios.png";
+import androidButtonImg from "./button_download_android.png";
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
+      <div className="mainpage">
+        <div className="main_container">
           <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+          <div className="buttoncontain">
+          <img src={androidButtonImg} className="iosbutton"  alt="Ios" />
+          <img src={iosButtonImg} className="iosbutton"  alt="Ios" />
+          </div>
+        </div>
       </div>
     );
   }
