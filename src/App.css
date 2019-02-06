@@ -7,62 +7,6 @@ body {
   height: 100%;
   width: 100%;
 }
-.App-logo {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  display: block;
-  margin:auto;
-  margin-top:30px;
-  width: 100px;
-  height:40px;
-  margin-bottom:30px;
-}
-.mainh3 {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  display: flex;
-  width:100%;
-}
-.mainh4 {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  display: flex;
-  width:100%;
-  margin-top:10px
-}
-html {
-  background-image: linear-gradient(to bottom right, #989ade, #5f6ccc);
-}
-
-.mainpage {
-  width: 100%;
-  height: 100%;
-  display: block;
-  justify-content: center;
-  align-items: center;
-}
-
-.main_container {
-  width: 80%;
-  height: 400px;
-  display: block;
-  margin: auto;
-}
-.main_image{
-  background: white;
-  width:65%;
-  height:320px;
-  display: block;
-  justify-content: center;
-  align-items: center;
-  margin:auto;
-  margin-top:30px;
-  border-radius: 10px;
-
-}
 * {
   margin: 0;
   padding: 0;
@@ -77,6 +21,22 @@ html {
     height: 0.25rem;
   }
 }
+
+.mainpage {
+  background-image: linear-gradient(to bottom right, #989ade, #5f6ccc);
+  width: 100%;
+  height: 100%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main_container {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
 .buttoncontain {
   width: 100%;
   display: flex;
@@ -85,8 +45,83 @@ html {
   flex-wrap: wrap;
   margin-top: 30px;
 }
+.iosbuttonblank {
+  width: 5px;
+  display: flex;
+}
 .iosbutton {
   display: inline-block;
-  width: 150px;
+  width: 140px;
   height: auto;
+}
+
+.logocontainer {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.App-logo {
+  display: flex;
+  width: 100px;
+  height: 40px;
+  margin: auto;
+}
+.imagecontainer {
+  width: 100%;
+  height: 364px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.main_image {
+  background: white;
+  width: 55%;
+  height: 335px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 15px;
+  border: 1px solid black;
+}
+.mainh3 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  width: 100%;
+}
+.mainh4 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.mainpage1 {
+  width: 100%;
+  height: 100%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 5px 5px 5px #dcdcdc;
+}
+
+.main_container2 {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  height: 170px;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
 }
