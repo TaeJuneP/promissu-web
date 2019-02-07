@@ -11,7 +11,7 @@ const SubPage2 = ({ ...props }) => {
         <h4 className="mainh4">친구들의 위치를 확인하세요.</h4>
       </div>
       <div className="imagecontainer">
-        <img className="main_image" alt="" />
+        <img className="main_image1" alt="" />
       </div>
     </div>
   );

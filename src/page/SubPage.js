@@ -11,7 +11,7 @@ const SubPage = ({ ...props }) => {
         <h4 className="mainh4">한눈에 관리하세요!</h4>
       </div>
       <div className="imagecontainer">
-        <img className="main_image" alt="" />
+        <img className="main_image1" alt="" />
       </div>
     </div>
   );
