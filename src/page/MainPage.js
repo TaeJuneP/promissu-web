@@ -21,7 +21,12 @@ class MainPage extends Component {
         return <a className="down_href" href={androidUrl} />;
       }
     } else {
-      return <a className="down_href" href="http://localhost:3000/" />;
+      return (
+        <a
+          className="down_href"
+          href="https://TaeJuneP.github.io/promissu-web"
+        />
+      );
     }
   };
   render() {
