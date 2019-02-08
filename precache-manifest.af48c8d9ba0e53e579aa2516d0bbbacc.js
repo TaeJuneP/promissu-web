@@ -16,19 +16,19 @@ self.__precacheManifest = [
     "url": "/promissu-web/static/js/runtime~main.733a8e6a.js"
   },
   {
-    "revision": "42f294f5905576374324",
-    "url": "/promissu-web/static/js/main.42f294f5.chunk.js"
+    "revision": "6e8eaabfc8790909dd06",
+    "url": "/promissu-web/static/js/main.6e8eaabf.chunk.js"
   },
   {
     "revision": "c1d5ff6402a6362bfb60",
     "url": "/promissu-web/static/js/1.c1d5ff64.chunk.js"
   },
   {
-    "revision": "42f294f5905576374324",
+    "revision": "6e8eaabfc8790909dd06",
     "url": "/promissu-web/static/css/main.c1b8621a.chunk.css"
   },
   {
-    "revision": "740f7ffdc32c4d8e0a127752dc6c0b1f",
+    "revision": "b7f7eb380c31ca697c80d58153231c9c",
     "url": "/promissu-web/index.html"
   }
 ];
