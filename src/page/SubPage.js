@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
-import demo from "../img/05.png";
+import img01 from "../img/img_01.png";
+import sdw from "../img/iphone_sdw.png";
 const SubPage = ({ ...props }) => {
   return (
     <div className="sub_page">
@@ -9,7 +10,8 @@ const SubPage = ({ ...props }) => {
         <h5 className="explanation">약속이 몇일 남았느지 한눈에 관리</h5>
       </div>
       <div className="sub_imagecontainer">
-        <img className="sub_image" alt="" src={demo} />
+        <img className="sub_image" alt="" src={img01} />
+        <img className="shw_image" alt="" src={sdw} />
       </div>
     </div>
   );

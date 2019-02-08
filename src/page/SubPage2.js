@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import demo from "../img/05.png";
+import img01 from "../img/img_01.png";
 const SubPage2 = ({ ...props }) => {
   return (
     <div className="sub_page">
@@ -10,7 +10,7 @@ const SubPage2 = ({ ...props }) => {
         <h5 className="explanation">친구들의 위치를 확인하세요</h5>
       </div>
       <div className="sub_imagecontainer">
-        <img className="sub_image" alt="" src={demo} />
+        <img className="sub_image" alt="" src={img01} />
       </div>
     </div>
   );
