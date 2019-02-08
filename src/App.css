@@ -23,9 +23,9 @@ body {
 }
 
 .mainpage {
-  background-image: linear-gradient(to bottom right, #989ade, #5f6ccc);
+  background: #5f6ccc;
   width: 100%;
-  height: 100%;
+  height: 919px;
   display: block;
   justify-content: center;
   align-items: center;
@@ -38,52 +38,66 @@ body {
   margin: auto;
 }
 .buttoncontain {
-  width: 100%;
+  width: 326px;
+  height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   margin-top: 30px;
+  position: relative;
+  margin: auto;
 }
-.iosbuttonblank {
-  width: 5px;
-  display: flex;
+.downbutton {
+  display: inline-block;
+  width: 326px;
+  height: 60px;
+  background-color: #fbfcfd;
+  border-radius: 5px;
+  color: #5f6ccc;
+  font-size: 18px;
+  font-weight: bold;
+  border-right-style: none;
+  position: absolute;
 }
+.downhref {
+  width: 326px;
+  height: 60px;
+  position: absolute;
+  z-index: 1;
+}
+
 .iosbutton {
   display: inline-block;
   width: 140px;
   height: auto;
 }
-
 .logocontainer {
-  height: 80px;
+  height: 120px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  padding-top: 50px;
 }
 .App-logo {
   display: flex;
   width: 100px;
-  height: 40px;
+  height: 45px;
   margin: auto;
 }
 .imagecontainer {
   width: 100%;
-  height: 385px;
+  height: 570px;
   display: block;
   justify-content: center;
   align-items: center;
+  padding-top: 65px;
 }
 .main_image {
-  background-image: url("./img/04.png");
-  width: 210px;
-  height: auto;
+  width: 224px;
+  height: 452px;
   display: block;
   margin: auto;
   margin-top: 10px;
-  border-radius: 15px;
-  border: 1px solid black;
+  border-radius: 20px;
   animation: 1.5s changeImg ease-in-out;
 }
 @keyframes changeImg {
@@ -95,50 +109,79 @@ body {
   }
 }
 .main_image1 {
-  width: 210px;
-  height: auto;
+  width: 224px;
+  height: 452px;
   display: block;
   margin: auto;
-  margin-top: 30px;
-  border-radius: 15px;
-  border: 1px solid black;
-  background-image: url("./img/04.png");
+  margin-top: 10px;
+  border-radius: 20px;
+  box-shadow: 0px 60px 120px 1px rgba(0, 0, 0, 0.5);
 }
 .mainh3 {
+  font-family: "Noto Sans CJK KR";
   justify-content: center;
   align-items: center;
   text-align: center;
   display: flex;
   width: 100%;
+  line-height: 50px;
+  font-size: 26px;
+  font-weight: normal;
+  color: #fffefe;
+  letter-spacing: 0px;
 }
 .mainh4 {
+  font-family: "Noto Sans CJK KR";
   justify-content: center;
   align-items: center;
   text-align: center;
   display: flex;
   width: 100%;
-  margin-top: 10px;
+  line-height: 50px;
+  font-size: 26px;
+  font-weight: 400;
+  color: #333333;
+  letter-spacing: -1px;
+}
+.mainh5 {
+  font-family: "Noto Sans CJK KR";
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  width: 100%;
+  line-height: 45px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #5f6ccc;
+  letter-spacing: -2px;
 }
 
 .mainpage1 {
   width: 100%;
-  height: 100%;
+  height: 850px;
   display: block;
   justify-content: center;
   align-items: center;
   text-align: center;
-  border-radius: 0 0 10px 10px;
-  box-shadow: 5px 5px 5px #dcdcdc;
 }
 
 .main_container2 {
   width: 80%;
   display: flex;
   margin: auto;
-  height: 170px;
-  margin-top: 50px;
+  height: 210px;
+  padding-top: 95px;
   justify-content: center;
   align-items: center;
   text-align: center;
   flex-direction: column;
+}
+.imagecontainer2 {
+  width: 100%;
+  height: 570px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding-top: ;
 }
