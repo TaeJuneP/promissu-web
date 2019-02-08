@@ -1,18 +1,8 @@
 import React, { Component } from "react";
 import logo from "../img/logo.png";
 import "../App.css";
-import iosButtonImg from "../img/button_download_ios.png";
-import androidButtonImg from "../img/button_download_android.png";
 import demo from "../img/04.png";
-import changeImg from "../App.css";
-import styled, { keyframes } from "styled-components";
-import {
-  BrowserView,
-  MobileView,
-  isMobile,
-  isIOS,
-  isAndroid
-} from "react-device-detect";
+import { isMobile, isIOS } from "react-device-detect";
 const androidUrl =
   "https://play.google.com/store/apps/details?id=com.simsimhan.promissu&hl=ko";
 
@@ -25,6 +15,7 @@ class MainPage extends Component {
   renderContent = () => {
     if (isMobile) {
       if (isIOS) {
+        //앱스토어 아직 미출시라서 구분할려고 네이버 해놈
         return <a className="down_href" href="http://naver.com" />;
       } else {
         return <a className="down_href" href={androidUrl} />;
