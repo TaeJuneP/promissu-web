@@ -39,7 +39,7 @@ class MainPage extends Component {
           <h5 className="App-name">프라미슈</h5>
         </div>
         <div className="main_container">
-          <h3 className="main_slogan">지금, 약속을 약속하세요</h3>
+          <h3 className="main_slogan">약속을 약속하세요</h3>
         </div>
         <div className="image_container">
           <img className="iphone_image" src={iphone} alt=" " />
