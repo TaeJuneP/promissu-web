@@ -1,6 +1,8 @@
 import React from "react";
 import "../App.css";
 import logo from "../img/logo_copy.png";
+import and from "../img/android.png";
+import ios from "../img/ios.png";
 const Detail = ({ ...props }) => {
   return (
     <div className="detail">
@@ -19,6 +21,10 @@ const Detail = ({ ...props }) => {
           <p className="detail_sub">서비스이용약관</p>
           <p className="detail_sub">이용자의 권리 및 유의사항</p>
           <p className="detail_sub">개인정보 처리방침</p>
+        </div>
+        <div className="detail_button_container">
+          <img className="detail_button" src={and} />
+          <img className="detail_button" src={ios} />
         </div>
       </div>
     </div>

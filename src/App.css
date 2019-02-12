@@ -369,6 +369,20 @@ body {
   height: 50px;
   weight: 100%;
 }
+.detail_button_container {
+  width: 350px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.detail_button {
+  display: block;
+  margin: auto;
+  width: 170px;
+}
 @keyframes sizedown {
   from {
     transform: none;
