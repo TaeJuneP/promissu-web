@@ -11,6 +11,7 @@ const SubPage = ({ ...props }) => {
       </div>
       <div className="sub_imagecontainer">
         <img className="sub_image" alt="" src={sub01} />
+        <div className="hindenpage" />
       </div>
     </div>
   );

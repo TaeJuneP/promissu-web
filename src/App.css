@@ -137,6 +137,7 @@ body {
   z-index: 1;
   right: 0;
   margin: auto;
+  animation: 1.5s upupup ease-in-out;
 }
 .sub_imagecontainer01 {
   width: 370px;
@@ -257,6 +258,16 @@ body {
   z-index: 1;
   border-radius: 50%;
   opacity: 0.1;
+  animation: 1.5s sizedown ease-in-out infinite;
+}
+.hindenpage {
+  z-index: 5;
+  position: absolute;
+  width: 370px;
+  height: 40px;
+  bottom: 0;
+  border-top: solid 1px #fffefe;
+  background-color: white;
 }
 .radar-middle {
   width: 109px;
@@ -267,6 +278,7 @@ body {
   z-index: 2;
   border-radius: 50%;
   opacity: 0.2;
+  animation: 1.5s sizedown ease-in-out infinite;
 }
 .radar-center {
   width: 31px;
@@ -294,4 +306,21 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+@keyframes sizedown {
+  from {
+    transform: none;
+  }
+  to {
+    transform: scale(0.5, 0.5);
+  }
+}
+
+@keyframes upupup {
+  from {
+    margin-top: 10%;
+  }
+  to {
+    margin-top: 0%;
+  }
 }
