@@ -1,13 +1,25 @@
 import React, { Component } from "react";
+import { Slide } from "react-slideshow-image";
 import logo from "../img/logo_white.png";
 import "../App.css";
 import sdw from "../img/iphone_sdw.png";
 import iphone from "../img/iphone.png";
 import img01 from "../img/img_01.png";
+import img02 from "../img/img_02.png";
+import img03 from "../img/img_03.png";
+import img04 from "../img/img_04.png";
+import img05 from "../img/img_05.png";
 import { isMobile, isIOS } from "react-device-detect";
 const androidUrl =
   "https://play.google.com/store/apps/details?id=com.simsimhan.promissu&hl=ko";
-
+const properties = {
+  duration: 5000,
+  transitionDuration: 500,
+  infinite: true,
+  indicators: false,
+  arrows: false
+};
+const slideImages = [img01, img02, img03, img04, img05];
 class MainPage extends Component {
   constructor(props) {
     super(props);
@@ -43,8 +55,8 @@ class MainPage extends Component {
         </div>
         <div className="image_container">
           <img className="iphone_image" src={iphone} alt=" " />
-          <img className="main_image" src={img01} alt="" />
-          <img className="shw_image" alt="" src={sdw} />
+          <img className="main_image" src={img01} />
+          <imn className="sdw_image" src={sdw} />
         </div>
         <div className="button_container">
           {this.renderContent()}
