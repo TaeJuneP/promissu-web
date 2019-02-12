@@ -1,7 +1,7 @@
 {
   "main.css": "/promissu-web/static/css/main.fe4a35e7.chunk.css",
-  "main.js": "/promissu-web/static/js/main.fad09274.chunk.js",
-  "main.js.map": "/promissu-web/static/js/main.fad09274.chunk.js.map",
+  "main.js": "/promissu-web/static/js/main.055df756.chunk.js",
+  "main.js.map": "/promissu-web/static/js/main.055df756.chunk.js.map",
   "static/css/1.a325ae00.chunk.css": "/promissu-web/static/css/1.a325ae00.chunk.css",
   "static/js/1.eec96661.chunk.js": "/promissu-web/static/js/1.eec96661.chunk.js",
   "static/js/1.eec96661.chunk.js.map": "/promissu-web/static/js/1.eec96661.chunk.js.map",
@@ -21,6 +21,6 @@
   "static/css/main.fe4a35e7.chunk.css.map": "/promissu-web/static/css/main.fe4a35e7.chunk.css.map",
   "static/css/1.a325ae00.chunk.css.map": "/promissu-web/static/css/1.a325ae00.chunk.css.map",
   "index.html": "/promissu-web/index.html",
-  "precache-manifest.1f7bae04fe99e7ee78356d5fc87bd464.js": "/promissu-web/precache-manifest.1f7bae04fe99e7ee78356d5fc87bd464.js",
+  "precache-manifest.e8501525685431fedf37a3d33edbb25e.js": "/promissu-web/precache-manifest.e8501525685431fedf37a3d33edbb25e.js",
   "service-worker.js": "/promissu-web/service-worker.js"
 }
