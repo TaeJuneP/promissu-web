@@ -1,43 +1,39 @@
 self.__precacheManifest = [
   {
-    "revision": "129e43a8e2e932f6f5624f1f28a13b3c",
-    "url": "/promissu-web/static/media/img_03.129e43a8.png"
+    "revision": "352d7c7e63aa09ccc063ed0a9f49afa5",
+    "url": "/promissu-web/static/media/img_04.352d7c7e.png"
   },
   {
-    "revision": "6670b110920c8a27d7ca",
-    "url": "/promissu-web/static/css/main.99f530aa.chunk.css"
+    "revision": "24755de4dc39418e7322",
+    "url": "/promissu-web/static/css/main.313c4c57.chunk.css"
   },
   {
-    "revision": "3c0ee5556354a567295c54b46575c465",
-    "url": "/promissu-web/static/media/location.3c0ee555.png"
-  },
-  {
-    "revision": "eec96661e335d869f7b5",
-    "url": "/promissu-web/static/js/1.eec96661.chunk.js"
+    "revision": "561076a71bf56499f4f4",
+    "url": "/promissu-web/static/js/1.561076a7.chunk.js"
   },
   {
     "revision": "733a8e6a3835918a8e2c",
     "url": "/promissu-web/static/js/runtime~main.733a8e6a.js"
   },
   {
-    "revision": "3eed775881d60be4730ef78efdb965aa",
-    "url": "/promissu-web/static/media/img_01.3eed7758.png"
-  },
-  {
     "revision": "6c1c9561f4744e21a68b0620b500732c",
     "url": "/promissu-web/static/media/iphone_sdw.6c1c9561.png"
+  },
+  {
+    "revision": "3eed775881d60be4730ef78efdb965aa",
+    "url": "/promissu-web/static/media/img_01.3eed7758.png"
   },
   {
     "revision": "a8eea4652eff4bdf91a983ebd4aad920",
     "url": "/promissu-web/static/media/img_02.a8eea465.png"
   },
   {
-    "revision": "6670b110920c8a27d7ca",
-    "url": "/promissu-web/static/js/main.6670b110.chunk.js"
+    "revision": "129e43a8e2e932f6f5624f1f28a13b3c",
+    "url": "/promissu-web/static/media/img_03.129e43a8.png"
   },
   {
-    "revision": "352d7c7e63aa09ccc063ed0a9f49afa5",
-    "url": "/promissu-web/static/media/img_04.352d7c7e.png"
+    "revision": "24755de4dc39418e7322",
+    "url": "/promissu-web/static/js/main.24755de4.chunk.js"
   },
   {
     "revision": "c970e938c3e62f748d0cb7cbbe4144b3",
@@ -60,11 +56,11 @@ self.__precacheManifest = [
     "url": "/promissu-web/static/media/sub02.245164e5.png"
   },
   {
-    "revision": "eec96661e335d869f7b5",
-    "url": "/promissu-web/static/css/1.a325ae00.chunk.css"
+    "revision": "3c0ee5556354a567295c54b46575c465",
+    "url": "/promissu-web/static/media/location.3c0ee555.png"
   },
   {
-    "revision": "138f34fb70f50df8ac3b470c29b3ea55",
+    "revision": "a41635ef274c5874a1bbb0834abf6015",
     "url": "/promissu-web/index.html"
   }
 ];
