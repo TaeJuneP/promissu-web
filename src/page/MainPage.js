@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Slide } from "react-slideshow-image";
+import SmartSlider from "./slider.js";
 import logo from "../img/logo_white.png";
 import "../App.css";
 import sdw from "../img/iphone_sdw.png";
@@ -19,6 +19,23 @@ const properties = {
   indicators: false,
   arrows: false
 };
+const slidesArray = [
+  {
+    url: img01
+  },
+  {
+    url: img02
+  },
+  {
+    url: img03
+  },
+  {
+    url: img04
+  },
+  {
+    url: img05
+  }
+];
 const slideImages = [img01, img02, img03, img04, img05];
 class MainPage extends Component {
   constructor(props) {
@@ -55,7 +72,9 @@ class MainPage extends Component {
         </div>
         <div className="image_container">
           <img className="iphone_image" src={iphone} alt=" " />
-          <img className="main_image" src={img01} />
+          <div className="main_image">
+            <SmartSlider slides={slidesArray} autoSlide={true} />
+          </div>
           <imn className="sdw_image" src={sdw} />
         </div>
         <div className="button_container">

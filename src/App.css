@@ -16,6 +16,7 @@ body {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
 }
 .scrollbars-visible-always {
   ::-webkit-scrollbar {
@@ -106,10 +107,19 @@ body {
 }
 .main_image {
   position: absolute;
-  min-width: 223px;
+  width: 223px;
   height: 394px;
   display: block;
   margin: auto;
+}
+.mainContainer {
+  position: relative;
+  height: 394px;
+}
+.slideContainer {
+  height: 394px;
+  border: 0px solid #333;
+  min-height: 394px;
 }
 .slide_image {
   width: 223px;
@@ -121,13 +131,14 @@ body {
 @keyframes changeImg {
 }
 .sub_imagecontainer {
-  width: 370px;
-  height: 376px;
+  width: 340px;
+  height: 420px;
   display: flex;
   position: relative;
   margin: auto;
   justify-content: center;
   align-items: center;
+  padding-bottom: 30px;
 }
 .sub_image {
   width: 300px;
@@ -137,7 +148,7 @@ body {
   z-index: 1;
   right: 0;
   margin: auto;
-  animation: 1.5s upupup ease-in-out;
+  animation: 2s upupup ease-in-out;
 }
 .sub_imagecontainer01 {
   width: 370px;
@@ -238,6 +249,15 @@ body {
   text-align: center;
 }
 
+.sub_page1 {
+  width: 100%;
+  height: 700px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .sub_container {
   width: 80%;
   display: flex;
@@ -264,7 +284,7 @@ body {
   z-index: 5;
   position: absolute;
   width: 370px;
-  height: 40px;
+  height: 47px;
   bottom: 0;
   border-top: solid 1px #fffefe;
   background-color: white;
@@ -307,6 +327,48 @@ body {
   align-items: center;
   text-align: center;
 }
+.detail {
+  width: 100%;
+  height: 526px;
+  margin: auto;
+  background-color: #f5f5f5;
+}
+.detail_logo_container {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 120px;
+  padding-top: 50px;
+}
+.detail_logo {
+  width: 106px;
+  height: 34px;
+  margin: auto;
+}
+.detail_main {
+  width: 100%;
+  height: 400px;
+}
+.detail_container {
+  width: 340px;
+  margin: auto;
+}
+.detail_name {
+  font-size: 16px;
+  color: #666666;
+  font-weight: 900;
+  line-height: 50px;
+}
+.detail_sub {
+  font-size: 16px;
+  color: #666666;
+  font-weight: 500;
+  line-height: 30px;
+}
+.detail_blank {
+  height: 50px;
+  weight: 100%;
+}
 @keyframes sizedown {
   from {
     transform: none;
@@ -318,7 +380,7 @@ body {
 
 @keyframes upupup {
   from {
-    margin-top: 10%;
+    margin-top: 15%;
   }
   to {
     margin-top: 0%;

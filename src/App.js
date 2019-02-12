@@ -3,7 +3,7 @@ import "./App.css";
 import MainPage from "./page/MainPage.js";
 import SubPage from "./page/SubPage.js";
 import SubPage2 from "./page/SubPage2.js";
-import Slideshow from "./page/Slideshow.js";
+import Detail from "./page/Detail.js";
 class App extends Component {
   constructor(props) {
     super(props);
@@ -20,13 +20,14 @@ class App extends Component {
     const scrollTop = ("scroll", e.srcElement.scrollingElement.scrollTop);
     this.setState({ scrollTop });
   };
+
   render() {
     return (
       <div>
         <MainPage />
         <SubPage />
         <SubPage2 />
-        <div>{this.state.scrollTop}</div>
+        <Detail />
       </div>
     );
   }

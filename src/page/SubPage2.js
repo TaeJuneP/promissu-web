@@ -4,7 +4,7 @@ import sub02 from "../img/sub02.png";
 import point from "../img/location.png";
 const SubPage2 = ({ ...props }) => {
   return (
-    <div className="sub_page">
+    <div className="sub_page1">
       <div className="sub_container">
         <h4 className="sub_slogan1">출발이 반 입니다.</h4>
         <h5 className="explanation">“어디야? 아직 집이야?”</h5>
