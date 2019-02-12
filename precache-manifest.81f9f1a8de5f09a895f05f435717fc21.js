@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "352d7c7e63aa09ccc063ed0a9f49afa5",
-    "url": "/promissu-web/static/media/img_04.352d7c7e.png"
+    "revision": "c970e938c3e62f748d0cb7cbbe4144b3",
+    "url": "/promissu-web/static/media/img_05.c970e938.png"
   },
   {
-    "revision": "24755de4dc39418e7322",
-    "url": "/promissu-web/static/css/main.313c4c57.chunk.css"
+    "revision": "914b6ba69fd84ec73dc8",
+    "url": "/promissu-web/static/css/main.c11d2f5a.chunk.css"
   },
   {
-    "revision": "561076a71bf56499f4f4",
-    "url": "/promissu-web/static/js/1.561076a7.chunk.js"
+    "revision": "ada33e17c9c1054f59c5",
+    "url": "/promissu-web/static/js/1.ada33e17.chunk.js"
   },
   {
     "revision": "733a8e6a3835918a8e2c",
@@ -32,12 +32,12 @@ self.__precacheManifest = [
     "url": "/promissu-web/static/media/img_03.129e43a8.png"
   },
   {
-    "revision": "24755de4dc39418e7322",
-    "url": "/promissu-web/static/js/main.24755de4.chunk.js"
+    "revision": "352d7c7e63aa09ccc063ed0a9f49afa5",
+    "url": "/promissu-web/static/media/img_04.352d7c7e.png"
   },
   {
-    "revision": "c970e938c3e62f748d0cb7cbbe4144b3",
-    "url": "/promissu-web/static/media/img_05.c970e938.png"
+    "revision": "914b6ba69fd84ec73dc8",
+    "url": "/promissu-web/static/js/main.914b6ba6.chunk.js"
   },
   {
     "revision": "514767a05d810cbd00db37a1f1c49d54",
@@ -60,7 +60,15 @@ self.__precacheManifest = [
     "url": "/promissu-web/static/media/location.3c0ee555.png"
   },
   {
-    "revision": "a41635ef274c5874a1bbb0834abf6015",
+    "revision": "77efec49589042d38d55c6148b1417bf",
+    "url": "/promissu-web/static/media/android.77efec49.png"
+  },
+  {
+    "revision": "e02bc30d0a62e350ba1daec0bdcecfe4",
+    "url": "/promissu-web/static/media/ios.e02bc30d.png"
+  },
+  {
+    "revision": "96676650e03fb392d27fc900b87b04df",
     "url": "/promissu-web/index.html"
   }
 ];
