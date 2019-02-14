@@ -378,8 +378,20 @@ body {
   flex-wrap: wrap;
   margin: auto;
 }
+.and_button {
+  position: relative;
+  width: 170px;
+  margin: auto;
+}
+.button_a {
+  position: absolute;
+  width: 170px;
+  margin: auto;
+  height: 50px;
+  z-index: 1;
+}
 .detail_button {
-  display: block;
+  position: absolute;
   margin: auto;
   width: 170px;
 }

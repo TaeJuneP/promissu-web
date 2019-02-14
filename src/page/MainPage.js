@@ -12,6 +12,7 @@ import img05 from "../img/img_05.png";
 import { isMobile, isIOS } from "react-device-detect";
 const androidUrl =
   "https://play.google.com/store/apps/details?id=com.simsimhan.promissu&hl=ko";
+const iosUrl = " https://itunes.apple.com/kr/app/promiseu/id1449948254?mt=8";
 const properties = {
   duration: 5000,
   transitionDuration: 500,
@@ -47,7 +48,7 @@ class MainPage extends Component {
     if (isMobile) {
       if (isIOS) {
         //앱스토어 아직 미출시라서 구분할려고 네이버 해놈
-        return <a className="down_href" href="http://naver.com" />;
+        return <a className="down_href" href={iosUrl} />;
       } else {
         return <a className="down_href" href={androidUrl} />;
       }

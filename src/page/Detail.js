@@ -3,6 +3,9 @@ import "../App.css";
 import logo from "../img/logo_copy.png";
 import and from "../img/android.png";
 import ios from "../img/ios.png";
+const androidUrl =
+  "https://play.google.com/store/apps/details?id=com.simsimhan.promissu&hl=ko";
+const iosUrl = " https://itunes.apple.com/kr/app/promiseu/id1449948254?mt=8";
 const Detail = ({ ...props }) => {
   return (
     <div className="detail">
@@ -23,8 +26,14 @@ const Detail = ({ ...props }) => {
           <p className="detail_sub">개인정보 처리방침</p>
         </div>
         <div className="detail_button_container">
-          <img className="detail_button" src={and} />
-          <img className="detail_button" src={ios} />
+          <div className="and_button">
+            <a className="button_a" href={androidUrl} />
+            <img className="detail_button" src={and} />
+          </div>
+          <div className="and_button">
+            <a className="button_a" href={iosUrl} />
+            <img className="detail_button" src={ios} />
+          </div>
         </div>
       </div>
     </div>
