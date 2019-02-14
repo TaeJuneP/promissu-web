@@ -269,17 +269,7 @@ body {
   text-align: center;
   flex-direction: column;
 }
-.radar {
-  width: 370px;
-  height: 143px;
-  background-color: #c0395f;
-  position: absolute;
-  margin: auto;
-  z-index: 1;
-  border-radius: 50%;
-  opacity: 0.1;
-  animation: 1.5s sizedown ease-in-out infinite;
-}
+
 .hindenpage {
   z-index: 5;
   position: absolute;
@@ -288,6 +278,17 @@ body {
   bottom: 0;
   border-top: solid 1px #fffefe;
   background-color: white;
+}
+.radar {
+  width: 340px;
+  height: 143px;
+  background-color: #c0395f;
+  position: absolute;
+  margin: auto;
+  z-index: 1;
+  border-radius: 50%;
+  opacity: 0.1;
+  animation: 1.5s sizedown ease-in-out infinite;
 }
 .radar-middle {
   width: 109px;
@@ -309,6 +310,7 @@ body {
   z-index: 3;
   border-radius: 50%;
   opacity: 0.4;
+  animation: 1.5s sizedown ease-in-out infinite;
 }
 .location_point {
   width: 51px;
@@ -397,10 +399,19 @@ body {
 }
 @keyframes sizedown {
   from {
-    transform: none;
+    transform: scale(0.5, 0.5);
   }
   to {
-    transform: scale(0.5, 0.5);
+    transform: none;
+    opacity: 0;
+  }
+}
+@keyframes opacityrader {
+  from {
+    opacity: none;
+  }
+  to {
+    opacity: 0;
   }
 }
 
