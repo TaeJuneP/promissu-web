@@ -16,7 +16,7 @@ const Detail = ({ ...props }) => {
         <div className="detail_container">
           <p className="detail_name">고객센터</p>
           <p className="detail_sub">이메일 : contact@simsimhan.co.kr</p>
-          <p className="detail_sub">카카오톡 : 심심한</p>
+          <p className="detail_sub">카카오톡 : 프라미슈</p>
         </div>
         <div className="detail_blank" />
         <div className="detail_container">

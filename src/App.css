@@ -1,6 +1,5 @@
 html,
 body {
-  height: 100%;
   width: 100%;
   overflow-x: hidden;
   overflow-y: auto;
@@ -17,6 +16,9 @@ body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-overflow-scrolling: touch;
+}
+.asd {
+  height: 1000px;
 }
 .scrollbars-visible-always {
   ::-webkit-scrollbar {
@@ -104,6 +106,7 @@ body {
   margin: auto;
   position: absolute;
   animation: 1.5s changeImg ease-in-out;
+  z-index: 1;
 }
 .main_image {
   position: absolute;
@@ -111,6 +114,7 @@ body {
   height: 394px;
   display: block;
   margin: auto;
+  z-index: 2;
 }
 .mainContainer {
   position: relative;
@@ -150,6 +154,16 @@ body {
   margin: auto;
   animation: 2s upupup ease-in-out;
 }
+.sub_image_no {
+  width: 300px;
+  height: 323px;
+  display: block;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  margin: auto;
+  margin-top: 15%;
+}
 .sub_imagecontainer01 {
   width: 370px;
   height: 440px;
@@ -175,6 +189,7 @@ body {
   margin: auto;
   padding-top: 50px;
   position: absolute;
+  z-index: 0;
 }
 .main_slogan {
   font-family: "Noto Sans CJK KR";

@@ -76,7 +76,7 @@ class MainPage extends Component {
           <div className="main_image">
             <SmartSlider slides={slidesArray} autoSlide={true} />
           </div>
-          <imn className="sdw_image" src={sdw} />
+          <img className="sdw_image" src={sdw} />
         </div>
         <div className="button_container">
           {this.renderContent()}
