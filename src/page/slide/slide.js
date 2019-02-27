@@ -2,7 +2,7 @@ import React from "react";
 
 class Slide extends React.Component {
   render() {
-    const { currentIndex, activeIndex, item, captionStyle } = this.props;
+    const { currentIndex, activeIndex, item } = this.props;
     return (
       <div
         className="slideList"

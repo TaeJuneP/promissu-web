@@ -2,7 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 import Slide from "./slide/slide.js";
 import Indicator from "./slide/indicator.js";
-import ButtonWrapper from "./slide/button-wrapper.js";
 import "./slide/styles.css";
 
 const AUTO_SLIDE_INTERVAL = 3000;
@@ -74,7 +73,7 @@ class SmartSlider extends React.Component {
 
   render() {
     const { activeIndex } = this.state;
-    const { slides, showIndicator, captionStyle, buttonShape } = this.props;
+    const { slides, showIndicator } = this.props;
 
     return (
       <div className="mainContainer">
