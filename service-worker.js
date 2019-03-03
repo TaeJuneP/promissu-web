@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/promissu-web/precache-manifest.9a7757d18e46cdde7c1f0536e28fac89.js"
+  "/promissu-web/precache-manifest.7b70228649bd8050d06769aedf4e5ac3.js"
 );
 
 workbox.clientsClaim();
