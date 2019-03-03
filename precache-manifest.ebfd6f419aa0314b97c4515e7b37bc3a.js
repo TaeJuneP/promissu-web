@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/promissu-web/static/media/img_02.a8eea465.png"
   },
   {
-    "revision": "c76c7ef84d10d471de48",
+    "revision": "cc702e5f5fdaf9659770",
     "url": "/promissu-web/static/css/main.69861cef.chunk.css"
   },
   {
@@ -32,12 +32,12 @@ self.__precacheManifest = [
     "url": "/promissu-web/static/media/iphone.dc854512.png"
   },
   {
-    "revision": "3eed775881d60be4730ef78efdb965aa",
-    "url": "/promissu-web/static/media/img_01.3eed7758.png"
+    "revision": "6bb5a836456e75d12584240549925b1b",
+    "url": "/promissu-web/static/media/img_01.6bb5a836.png"
   },
   {
-    "revision": "c76c7ef84d10d471de48",
-    "url": "/promissu-web/static/js/main.c76c7ef8.chunk.js"
+    "revision": "cc702e5f5fdaf9659770",
+    "url": "/promissu-web/static/js/main.cc702e5f.chunk.js"
   },
   {
     "revision": "129e43a8e2e932f6f5624f1f28a13b3c",
@@ -68,7 +68,7 @@ self.__precacheManifest = [
     "url": "/promissu-web/static/media/ios.e02bc30d.png"
   },
   {
-    "revision": "9c39cd3e5a896dc90bd9a465a4b6b76d",
+    "revision": "f181c7e6484e310b9dd0a1d9c9cd5cd9",
     "url": "/promissu-web/index.html"
   }
 ];
