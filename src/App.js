@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-import ReactDOM from "react";
+import React from "react";
 import "./App.css";
 import MainPage from "./page/MainPage.js";
 import SubPage from "./page/SubPage.js";

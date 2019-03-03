@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "../App.css";
 import sub01 from "../img/sub01.png";
-import sdw from "../img/iphone_sdw.png";
 class SubPage extends Component {
   state = {
     y: 0

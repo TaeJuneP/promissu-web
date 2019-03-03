@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Media from "react-media";
 import SmartSlider from "./slider.js";
 import logo from "../img/logo_white.png";
 import "../App.css";
@@ -37,7 +38,6 @@ const slidesArray = [
     url: img05
   }
 ];
-const slideImages = [img01, img02, img03, img04, img05];
 class MainPage extends Component {
   constructor(props) {
     super(props);
@@ -47,7 +47,6 @@ class MainPage extends Component {
   renderContent = () => {
     if (isMobile) {
       if (isIOS) {
-        //앱스토어 아직 미출시라서 구분할려고 네이버 해놈
         return <a className="down_href" href={iosUrl} />;
       } else {
         return <a className="down_href" href={androidUrl} />;
@@ -76,13 +75,13 @@ class MainPage extends Component {
           <div className="main_image">
             <SmartSlider slides={slidesArray} autoSlide={true} />
           </div>
-          <img className="sdw_image" src={sdw} />
+          <img className="sdw_image" src={sdw} alt="shadaw"/>
         </div>
-        <div className="button_container">
+        <div className="button_container" >
           {this.renderContent()}
           <button className="download_button">앱 다운로드</button>
         </div>
-      </div>
+        </div>
     );
   }
 }

@@ -10,7 +10,7 @@ const Detail = ({ ...props }) => {
   return (
     <div className="detail">
       <div className="detail_logo_container">
-        <img className="detail_logo" src={logo} />
+        <img className="detail_logo" src={logo} alt="promissu" />
       </div>
       <div className="detail_main">
         <div className="detail_container">
@@ -28,11 +28,11 @@ const Detail = ({ ...props }) => {
         <div className="detail_button_container">
           <div className="and_button">
             <a className="button_a" href={androidUrl} />
-            <img className="detail_button" src={and} />
+            <img className="detail_button" src={and} alt="android" />
           </div>
           <div className="and_button">
             <a className="button_a" href={iosUrl} />
-            <img className="detail_button" src={ios} />
+            <img className="detail_button" src={ios} alt="ios"/>
           </div>
         </div>
       </div>
