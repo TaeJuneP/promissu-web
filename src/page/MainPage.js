@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Media from "react-media";
 import SmartSlider from "./slider.js";
 import logo from "../img/logo_white.png";
 import "../App.css";
@@ -76,11 +77,11 @@ class MainPage extends Component {
           </div>
           <img className="sdw_image" src={sdw} alt="shadaw"/>
         </div>
-        <div className="button_container">
+        <div className="button_container" >
           {this.renderContent()}
           <button className="download_button">앱 다운로드</button>
         </div>
-      </div>
+        </div>
     );
   }
 }
