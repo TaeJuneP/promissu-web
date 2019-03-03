@@ -37,7 +37,7 @@ body {
   margin: auto;
 }
 .button_container {
-  width: 80%;
+  width: 85%;
   height: 90px;
   justify-content: center;
   align-items: center;
@@ -50,7 +50,7 @@ body {
 }
 @media (min-width:700px) {
   .button_container {
-    width: 320px;
+    width: 326px;
     height: 90px;
     justify-content: center;
     align-items: center;
