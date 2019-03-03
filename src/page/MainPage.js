@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Media from "react-media";
 import SmartSlider from "./slider.js";
 import logo from "../img/logo_white.png";
 import "../App.css";
