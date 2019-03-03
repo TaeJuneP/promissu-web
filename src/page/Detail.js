@@ -30,6 +30,7 @@ const Detail = ({ ...props }) => {
             <a className="button_a" href={androidUrl} />
             <img className="detail_button" src={and} alt="android" />
           </div>
+          <div className="buttons_blank"/>
           <div className="and_button">
             <a className="button_a" href={iosUrl} />
             <img className="detail_button" src={ios} alt="ios"/>

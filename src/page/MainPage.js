@@ -13,13 +13,6 @@ import { isMobile, isIOS } from "react-device-detect";
 const androidUrl =
   "https://play.google.com/store/apps/details?id=com.simsimhan.promissu&hl=ko";
 const iosUrl = " https://itunes.apple.com/kr/app/promiseu/id1449948254?mt=8";
-const properties = {
-  duration: 5000,
-  transitionDuration: 500,
-  infinite: true,
-  indicators: false,
-  arrows: false
-};
 const slidesArray = [
   {
     url: img01
