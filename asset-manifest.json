@@ -1,7 +1,7 @@
 {
-  "main.css": "/promissu-web/static/css/main.d8b907d3.chunk.css",
-  "main.js": "/promissu-web/static/js/main.5ea38846.chunk.js",
-  "main.js.map": "/promissu-web/static/js/main.5ea38846.chunk.js.map",
+  "main.css": "/promissu-web/static/css/main.69861cef.chunk.css",
+  "main.js": "/promissu-web/static/js/main.c76c7ef8.chunk.js",
+  "main.js.map": "/promissu-web/static/js/main.c76c7ef8.chunk.js.map",
   "static/js/1.668b1333.chunk.js": "/promissu-web/static/js/1.668b1333.chunk.js",
   "static/js/1.668b1333.chunk.js.map": "/promissu-web/static/js/1.668b1333.chunk.js.map",
   "runtime~main.js": "/promissu-web/static/js/runtime~main.733a8e6a.js",
@@ -19,8 +19,8 @@
   "static/media/location.png": "/promissu-web/static/media/location.3c0ee555.png",
   "static/media/android.png": "/promissu-web/static/media/android.77efec49.png",
   "static/media/logo_white.png": "/promissu-web/static/media/logo_white.514767a0.png",
-  "static/css/main.d8b907d3.chunk.css.map": "/promissu-web/static/css/main.d8b907d3.chunk.css.map",
+  "static/css/main.69861cef.chunk.css.map": "/promissu-web/static/css/main.69861cef.chunk.css.map",
   "index.html": "/promissu-web/index.html",
-  "precache-manifest.56eb9620e2d5a6bf13aecb5541457564.js": "/promissu-web/precache-manifest.56eb9620e2d5a6bf13aecb5541457564.js",
+  "precache-manifest.46751338954821e1e4941ce15fb04f60.js": "/promissu-web/precache-manifest.46751338954821e1e4941ce15fb04f60.js",
   "service-worker.js": "/promissu-web/service-worker.js"
 }

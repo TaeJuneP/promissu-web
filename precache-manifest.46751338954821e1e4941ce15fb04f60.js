@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/promissu-web/static/media/img_02.a8eea465.png"
   },
   {
-    "revision": "5ea38846eeadc99f695b",
-    "url": "/promissu-web/static/css/main.d8b907d3.chunk.css"
+    "revision": "c76c7ef84d10d471de48",
+    "url": "/promissu-web/static/css/main.69861cef.chunk.css"
   },
   {
     "revision": "668b1333959f49ee5337",
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/promissu-web/static/media/img_01.3eed7758.png"
   },
   {
-    "revision": "5ea38846eeadc99f695b",
-    "url": "/promissu-web/static/js/main.5ea38846.chunk.js"
+    "revision": "c76c7ef84d10d471de48",
+    "url": "/promissu-web/static/js/main.c76c7ef8.chunk.js"
   },
   {
     "revision": "129e43a8e2e932f6f5624f1f28a13b3c",
@@ -68,7 +68,7 @@ self.__precacheManifest = [
     "url": "/promissu-web/static/media/ios.e02bc30d.png"
   },
   {
-    "revision": "c958e9f65d41355d317769c0aa73f44b",
+    "revision": "9c39cd3e5a896dc90bd9a465a4b6b76d",
     "url": "/promissu-web/index.html"
   }
 ];
